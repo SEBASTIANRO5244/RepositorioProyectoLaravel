@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap");
+.prueba {
+    border: #18a0fb;
+}
+.nav {
+    background-color: white;
+    width: 100%;
+}
+
+.navitems {
+    float: right;
+}
+
+.navitems ul li {
+    display: inline-block;
+    margin-top: 16px;
+    padding-left: 50px;
+}
+
+.navitems ul {
+    padding-right: 35px;
+}
+
+.navitems ul li a {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbtnpad {
+    margin-bottom: 2px;
+    margin-right: 10px;
+}
+
+.textnav {
+    color: black;
+    flex-grow: 1;
+    padding-top: 7px;
+}
+.heroright {
+    width: 50%;
+    float: right;
+    height: 550px;
+    background-image: linear-gradient(to bottom, transparent, #18a0fb 1400px),
+        url("/img/bghero.jpg");
+
+    background-size: cover;
+    box-shadow: 0 10px 10px -2px #cdcdcd;
+}
+
+div .heroleft {
+    float: left;
+    width: 50%;
+    height: 550px;
+    background-image: url("/img/wave.png");
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 10px 10px -2px #cdcdcd;
+    z-index: 1;
+    background-color: white;
+    position: relative;
+}
+
+div .heroleft2 {
+    float: left;
+    width: 50%;
+    height: 550px;
+
+    z-index: 1;
+    background-image: url("/img/Hero2.png");
+
+    background-size: cover;
+    background-color: white;
+    position: relative;
+}
+
+.texthero {
+    margin-top: 200px;
+}
+
+.texthero h1 {
+    color: #117abf;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+
+.texthero h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.btnhero {
+    margin-top: 25px;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+    .navitems ul li {
+        display: none;
+        margin-top: 16px;
+        padding-left: 50px;
+    }
+
+    .navitems ul {
+        display: none;
+        padding-right: 35px;
+    }
+
+    .navitems ul li a {
+        display: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .navbtnpad {
+        display: none;
+    }
+
+    .heroright {
+        z-index: 0;
+        width: 100%;
+        float: left;
+        height: 300px;
+        background-image: linear-gradient(
+                to bottom,
+                transparent,
+                #18a0fb 1400px
+            ),
+            url("/img/bghero.jpg");
+        box-shadow: 0 10px 10px -2px #cdcdcd;
+        position: static;
+    }
+    div .heroleft {
+        float: left;
+        width: 100%;
+        height: 400px;
+        background-image: url("*");
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        box-shadow: 0 10px 10px -2px #cdcdcd;
+        z-index: 1;
+        background-color: white;
+        position: static;
+    }
+
+    div .heroleft2 {
+        float: left;
+        width: 100%;
+        height: 400px;
+        background-image: url("/img/Hero2.png");
+        background-size: cover;
+        background-size: 100%;
+        z-index: 1;
+        background-color: white;
+        position: static;
+    }
+    .texthero {
+        margin-top: 90px;
+    }
+
+    .texthero h1 {
+        color: #117abf;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+    }
+
+    .texthero h2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+    }
+
+    .btnhero {
+        margin-top: 15px;
+    }
+
+    div .space {
+        float: left;
+        position: static;
+        width: 100%;
+        height: 20px;
+    }
+
+    .textservice {
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        text-align: center;
+        color: #18a0fb;
+    }
+
+    #cartas {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1133px) {
+    .navitems ul li {
+        display: none;
+        margin-top: 16px;
+        padding-left: 50px;
+    }
+
+    .navitems ul {
+        display: none;
+        padding-right: 35px;
+    }
+
+    .navitems ul li a {
+        display: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .navbtnpad {
+        display: none;
+    }
+
+    .heroright {
+        z-index: 0;
+        width: 70%;
+        float: right;
+        height: 550px;
+        background-image: linear-gradient(
+                to bottom,
+                transparent,
+                #18a0fb 1400px
+            ),
+            url("/img/bghero.jpg");
+        background-size: cover;
+        box-shadow: 0 10px 10px -2px #cdcdcd;
+    }
+    div .heroleft {
+        float: left;
+        width: 50%;
+        height: 550px;
+        background-image: url("/img/wave.png");
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        box-shadow: 0 10px 10px -2px #cdcdcd;
+        z-index: 1;
+        background-color: white;
+        position: absolute;
+    }
+
+    div .heroleft2 {
+        float: left;
+        width: 50%;
+        height: 550px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url("/img/Hero2.png");
+        background-size: cover;
+        background-size: 100%;
+        z-index: 1;
+        background-color: white;
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 1134px) {
+    .burger {
+        display: none;
+    }
+}
+
+.circulo1 {
+    padding-top: 100px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url("/img/servicio1.png");
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: center;
+}
+
+.circulo2 {
+    padding-top: 100px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url("/img/servicio2.png");
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: center;
+}
+
+.circulo3 {
+    padding-top: 100px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url("/img/servicio3.png");
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: center;
+}
+
+.servicios {
+    padding-bottom: 10px;
+}
+
+.servicestitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.servicestext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.team1 {
+    background-image: url("/img/team3.png");
+    transition: transform 0.2s;
+}
+
+.space {
+    position: static;
+    width: 100%;
+    height: 580px;
+    padding-bottom: 20px;
+}
+
+.Footer {
+    width: 100%;
+    height: 150px;
+    background-image: url("/img/Footer.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+
+}
+
+.Space2 {
+    width: 100%;
+    height: 550px;
+}
